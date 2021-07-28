@@ -5,7 +5,6 @@
 #include <arpa/inet.h>
 #include <string.h>
 
-//struct ether_header* eth_header;
 struct libnet_ipv4_hdr* ip_header;
 struct libnet_tcp_hdr* tcp_header;
 struct pcap_pkthdr* pcap_header;
